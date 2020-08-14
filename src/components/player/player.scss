@@ -1,0 +1,70 @@
+// PLAYER STYLES
+.player-outer-container {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  .player-container {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-row-gap: 2px;
+    background-color: black;
+
+    h2 {
+      color: white;
+      font-size: 2em;
+    }
+  }
+}
+
+
+
+// PLAYER LIST STYLES
+.player-list-outer-container {
+  .player-list-inner-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+    .player-list {
+
+      .player-id {
+        color: #c5e3f6;
+        width: 40px;
+        text-align: right;
+      }
+      .player-tag {
+        width: 130px;
+        color: rgb(105, 218, 246);
+
+      }
+      .player-name {
+        color: rgb(105, 218, 246);
+      }
+
+      .player-percent {
+        width: 100px;
+        color: #c5e3f6;
+
+      }
+      .player-overall {
+        width: 150px;
+        color: #c5e3f6;
+
+      }
+      .player-total {
+        width: 140px;
+        color: #c5e3f6;
+      }
+    }
+    
+    p {
+      padding: 10px 10px 10px 10px; 
+      margin: 0;
+      width: 200px;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      font-size: 1.2em;
+    }
+  }
+}
